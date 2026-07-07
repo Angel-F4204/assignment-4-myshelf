@@ -1,75 +1,177 @@
-# React + TypeScript + Vite
+# GameVault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
 
-Currently, two official plugins are available:
+GameVault is a personal game tracker built with React, TypeScript, React Router, TanStack Query, Zustand, Tailwind CSS, and json-server. The application allows users to browse a catalog of games, search by title, filter games by status, view detailed information about each game, update the game's status, assign a rating, and save personal notes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project was created for Assignment 4 in CSCI 39548: Practical Web Development at Hunter College.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Theme
 
-## Expanding the ESLint configuration
+I chose a video game tracker called **GameVault**. Instead of tracking books or movies, this application helps users organize video games they want to play, are currently playing, have completed, or have dropped.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Browse a catalog of games
+- Search games by title
+- Filter games by status
+- View an individual game's details
+- Update game status
+- Rate games from 1–5
+- Save personal notes
+- Light/Dark theme toggle
+- Comfortable/Compact density setting
+- Theme and density persist across page reloads
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
 
-```
+# Technologies Used
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- React
+- TypeScript
+- React Router
+- TanStack Query
+- Zustand
+- Tailwind CSS
+- json-server
+- Vite
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Project Structure
 
 ```
+src/
+│
+├── components/
+│   └── Navbar.tsx
+│
+├── pages/
+│   ├── HomePage.tsx
+│   ├── ItemPage.tsx
+│   ├── StatusPage.tsx
+│   ├── AboutPage.tsx
+│   └── NotFoundPage.tsx
+│
+├── services/
+│   └── api.ts
+│
+├── store/
+│   └── useUiStore.ts
+│
+├── App.tsx
+├── main.tsx
+└── index.css
+```
+
+---
+
+# Setup Instructions
+
+## Install dependencies
+
+```bash
+npm install
+```
+
+## Start the backend
+
+```bash
+npm run server
+```
+
+The backend will run on:
+
+```
+http://localhost:3001
+```
+
+## Start the React application
+
+```bash
+npm run dev
+```
+
+The application will run on:
+
+```
+http://localhost:5173
+```
+
+(or another available Vite port such as 5174)
+
+---
+
+# Database
+
+The application uses json-server with two database files:
+
+- db.json
+- db.seed.json
+
+The application stores game information including:
+
+- Title
+- Creator
+- Genre
+- Year
+- Status
+- Rating
+- Personal Notes
+
+---
+
+# Screenshots
+
+Add 2–3 screenshots here before submitting.
+
+Example:
+
+## Home Page
+
+*![alt text](<Screenshot 2026-07-07 005809.png>)*
+
+## Game Detail Page
+
+*![alt text](<Screenshot 2026-07-07 005837.png>)*
+
+## About Page
+
+*![alt text](<Screenshot 2026-07-07 005830.png>)*
+
+---
+
+# Stretch Features
+
+No stretch features were implemented.
+
+---
+
+# What I Learned
+
+During this assignment I learned how to:
+
+- Configure React Router
+- Create dynamic routes using useParams
+- Store search state using useSearchParams
+- Fetch server data using TanStack Query
+- Update server data using useMutation
+- Invalidate queries after mutations
+- Manage global UI state with Zustand
+- Persist settings using Zustand's persist middleware
+- Build responsive interfaces with Tailwind CSS
+- Connect a React frontend to json-server
+
+---
+
+# Author
+
+Angel Flores
+
+CSCI 39548 – Practical Web Development
+
+Hunter College
