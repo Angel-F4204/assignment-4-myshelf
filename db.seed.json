@@ -1,0 +1,204 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Elden Ring",
+      "creator": "FromSoftware",
+      "year": 2022,
+      "genre": "Action RPG",
+      "status": "active",
+      "rating": 5,
+      "note": "Still exploring the map."
+    },
+    {
+      "id": 2,
+      "title": "Cyberpunk 2077",
+      "creator": "CD Projekt Red",
+      "year": 2020,
+      "genre": "RPG",
+      "status": "done",
+      "rating": 5,
+      "note": "Looks amazing on PC."
+    },
+    {
+      "id": 3,
+      "title": "Red Dead Redemption 2",
+      "creator": "Rockstar Games",
+      "year": 2018,
+      "genre": "Adventure",
+      "status": "done",
+      "rating": 5,
+      "note": "One of my favorites."
+    },
+    {
+      "id": 4,
+      "title": "The Last of Us Part I",
+      "creator": "Naughty Dog",
+      "year": 2022,
+      "genre": "Adventure",
+      "status": "want",
+      "rating": null,
+      "note": null
+    },
+    {
+      "id": 5,
+      "title": "God of War",
+      "creator": "Santa Monica Studio",
+      "year": 2018,
+      "genre": "Action",
+      "status": "want",
+      "rating": null,
+      "note": null
+    },
+    {
+      "id": 6,
+      "title": "Spider-Man Remastered",
+      "creator": "Insomniac Games",
+      "year": 2022,
+      "genre": "Action",
+      "status": "active",
+      "rating": 4,
+      "note": "Fun movement."
+    },
+    {
+      "id": 7,
+      "title": "Baldur's Gate 3",
+      "creator": "Larian Studios",
+      "year": 2023,
+      "genre": "RPG",
+      "status": "active",
+      "rating": 5,
+      "note": "Very detailed."
+    },
+    {
+      "id": 8,
+      "title": "Starfield",
+      "creator": "Bethesda Game Studios",
+      "year": 2023,
+      "genre": "RPG",
+      "status": "dropped",
+      "rating": 3,
+      "note": "Did not keep my attention."
+    },
+    {
+      "id": 9,
+      "title": "Hades",
+      "creator": "Supergiant Games",
+      "year": 2020,
+      "genre": "Roguelike",
+      "status": "done",
+      "rating": 5,
+      "note": "Fast and addictive."
+    },
+    {
+      "id": 10,
+      "title": "Hollow Knight",
+      "creator": "Team Cherry",
+      "year": 2017,
+      "genre": "Metroidvania",
+      "status": "want",
+      "rating": null,
+      "note": null
+    },
+    {
+      "id": 11,
+      "title": "Resident Evil 4 Remake",
+      "creator": "Capcom",
+      "year": 2023,
+      "genre": "Horror",
+      "status": "active",
+      "rating": 4,
+      "note": "Great atmosphere."
+    },
+    {
+      "id": 12,
+      "title": "Alan Wake 2",
+      "creator": "Remedy Entertainment",
+      "year": 2023,
+      "genre": "Horror",
+      "status": "want",
+      "rating": null,
+      "note": null
+    },
+    {
+      "id": 13,
+      "title": "Halo Infinite",
+      "creator": "343 Industries",
+      "year": 2021,
+      "genre": "Shooter",
+      "status": "dropped",
+      "rating": 3,
+      "note": "Multiplayer was okay."
+    },
+    {
+      "id": 14,
+      "title": "Doom Eternal",
+      "creator": "id Software",
+      "year": 2020,
+      "genre": "Shooter",
+      "status": "done",
+      "rating": 5,
+      "note": "Fast and intense."
+    },
+    {
+      "id": 15,
+      "title": "Control",
+      "creator": "Remedy Entertainment",
+      "year": 2019,
+      "genre": "Action",
+      "status": "dropped",
+      "rating": 3,
+      "note": "Cool idea but paused it."
+    },
+    {
+      "id": 16,
+      "title": "Mass Effect Legendary Edition",
+      "creator": "BioWare",
+      "year": 2021,
+      "genre": "RPG",
+      "status": "want",
+      "rating": null,
+      "note": null
+    },
+    {
+      "id": 17,
+      "title": "Sekiro",
+      "creator": "FromSoftware",
+      "year": 2019,
+      "genre": "Action",
+      "status": "dropped",
+      "rating": 4,
+      "note": "Very hard."
+    },
+    {
+      "id": 18,
+      "title": "Ghost of Tsushima",
+      "creator": "Sucker Punch",
+      "year": 2020,
+      "genre": "Adventure",
+      "status": "active",
+      "rating": 4,
+      "note": "Beautiful world."
+    },
+    {
+      "id": 19,
+      "title": "Forza Horizon 5",
+      "creator": "Playground Games",
+      "year": 2021,
+      "genre": "Racing",
+      "status": "done",
+      "rating": 4,
+      "note": "Great driving game."
+    },
+    {
+      "id": 20,
+      "title": "The Witcher 3",
+      "creator": "CD Projekt Red",
+      "year": 2015,
+      "genre": "RPG",
+      "status": "want",
+      "rating": null,
+      "note": null
+    }
+  ]
+}
